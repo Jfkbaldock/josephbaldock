@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+h1, h2, h3 {
+    margin: 0 0 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.qr-code {
+    margin-top: 1rem;
+    max-width: 200px; /* Adjust the size as needed */
+    height: auto;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 1rem;
+    text-align: center;
+}
